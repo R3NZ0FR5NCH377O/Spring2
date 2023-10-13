@@ -1,6 +1,6 @@
 
 
-ont* {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -16,7 +16,12 @@ ont* {
   
   a {
     margin: 10px;
+    text-decoration: none;
+    
+  
   }
+  a:hover{
+   color: black;  }
   
   #logo {
     margin-left: 90%;
@@ -62,6 +67,14 @@ ont* {
 
 
   }
+  #imagen1{
+    transition: transform 300ms ease-out;
+
+  }
+  #imagen1:hover{
+    transform: rotate(15deg) translate(0px, 0px) scale(1.1, 1);
+
+  }
 
   /* ABOUT US */
 
@@ -77,8 +90,13 @@ ont* {
     display: table-cell; /* Utiliza display: table-cell para centrar verticalmente */
     vertical-align: middle;
     margin-bottom: 10px;
-    
+    transition: transform 300ms ease-out;
+
     border-radius: 20%;
+  }
+  section > article > img:hover {
+    transform: rotate(15deg) translate(0px, 0px) scale(1.1, 1);
+
   }
   section > article > img:first-child{
     margin-top: 50px;
@@ -86,6 +104,8 @@ ont* {
   section > article > p {
     display: table-cell;
     width: 40%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 8rem;
     text-align: center;
     vertical-align: middle;
@@ -94,5 +114,32 @@ ont* {
   
   
                       /*CONTACT  */
+  #seccion_contact{
+    text-align: center;
+  }
 
-  
+  #seccion_contact img{
+    width: 40rem;
+    height: 40rem;
+    max-width: 100%;
+    margin-top: 1rem;
+    
+  }
+  #seccion_contact p{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    font-size: larger;
+  }
+  #contacto p{
+    display: inline-block;
+    margin-left:5rem ;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #contacto{
+    text-align: center;
+  }
+  h1, h2{
+    text-align: center;
+  }
