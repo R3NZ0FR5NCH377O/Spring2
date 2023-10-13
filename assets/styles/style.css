@@ -1,6 +1,6 @@
 
 
-* {
+ont* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -62,3 +62,37 @@
 
 
   }
+
+  /* ABOUT US */
+
+  section > article {
+    display: table; /* Utiliza display: table en lugar de inline-block */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  }
+  
+  section > article > img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 30px;
+    display: table-cell; /* Utiliza display: table-cell para centrar verticalmente */
+    vertical-align: middle;
+    margin-bottom: 10px;
+    
+    border-radius: 20%;
+  }
+  section > article > img:first-child{
+    margin-top: 50px;
+  }
+  section > article > p {
+    display: table-cell;
+    width: 40%;
+    margin-left: 8rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px; /* Agrega margen en el lado derecho de los párrafos */
+  }
+  
+  
+                      /*CONTACT  */
+
+  
