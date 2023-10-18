@@ -101,6 +101,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 #seccion_contact p{
@@ -113,13 +114,14 @@ main{
 #contacto{
   display: flex;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 #contacto p{
   margin-top: 2vh;
   margin-bottom: 1vh;
   font-size: large;
 }
-img{
+/* img{
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 @keyframes myAnim {
@@ -167,5 +169,68 @@ img{
 		opacity: 1;
 		transform: translateX(0px);
 	}
-}
+} */
 
+/* SERVICES */
+
+th,td{
+  border: 1px solid black;
+  padding: 20px;
+
+}
+#tabla{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+table{
+  border-collapse: collapse;
+  margin-bottom: 2vh;
+
+}
+#h1_services{
+  text-align: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Esto es lo que afecta a rating */
+
+.div_rating{
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: space-around;
+  margin: 30px;
+  margin-bottom: 2%;
+}
+.div_rating_2{
+  margin-bottom: 10%;
+}
+/* div img{
+  width: 20vw;
+} */
+.right-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  width: 40%;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.right-content ul{
+  margin-top: 5%;
+}
+#stars2{
+  margin-top: 20%;
+  width: auto;
+}
+#h1_rating, #h2_rating{
+  text-align: center;
+  margin-top: 1%;
+}
