@@ -79,6 +79,10 @@
 main{
   text-align: center;
 }
+#main_about_us {
+  margin-bottom: 7%;
+}
+
 
 #about_us article{
   display: flex;
@@ -201,6 +205,7 @@ footer{
 
 .div_rating{
   display: flex;
+  font-size: x-large;
   flex-direction: row;
   background-color: aquamarine;
   justify-content: space-around;
@@ -217,9 +222,10 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: beige;
+  background-color: rgb(187, 196, 194);
   width: 40%;
   font-size: large;
+  border-radius: 90%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  
 }
@@ -227,10 +233,92 @@ footer{
   margin-top: 5%;
 }
 #stars2{
-  margin-top: 20%;
+  margin-top: 10%;
   width: auto;
 }
 #h1_rating, #h2_rating{
   text-align: center;
   margin-top: 1%;
+}
+
+
+
+/* todo esto es peligroso */
+/* Estilos para el div del título */
+#div_titulo {
+  background-color: #333; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Estilos para los dos divs laterales */
+.divs_laterales {
+  display: flex;
+}
+
+/* Estilos para el div de mapa */
+.mapa {
+  flex: 1; /* Ocupa la mitad del ancho disponible */
+  padding: 20px;
+}
+
+/* Estilos para el div de labels y formulario */
+.labels {
+  flex: 1; /* Ocupa la otra mitad del ancho disponible */
+  padding: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 400px; /* Establece el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario en su contenedor */
+}
+
+/* Estilos para los labels y elementos del formulario */
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="button"] {
+  background-color: #040303; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  text-align: center;
+  padding: 20px;
+}
+.mapa {
+  flex: 1; /* Ocupa la mitad del ancho disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  padding: 20px;
+}
+form{
+  margin-bottom: 3%;
+}
+form{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
